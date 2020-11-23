@@ -8,7 +8,7 @@ $accessToken = "tg3ul2zoeExQRu3WyyyTRQd0mCXZ7L9cCIlbCXV8Ov16XI2ufyt2FjP/HNhF3NhA
    //รับข้อความจากผู้ใช้
    $message = 'สวัสดี';//$arrayJson['events'][0]['message']['text'];
    //รับ id ของผู้ใช้
-   $id = 'Ub9af2ecddba401128eb33559023cbf9a';//$arrayJson['events'][0]['source']['userId'];
+   $id = 'U2947c469fd8429f2ab326d98a5308d97';//$arrayJson['events'][0]['source']['userId'];
    #ตัวอย่าง Message Type "Text + Sticker"
    //if($message == "สวัสดี"){
       $arrayPostData['to'] = $id;
