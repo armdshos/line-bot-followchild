@@ -13,7 +13,7 @@ $pushID = 'U2947c469fd8429f2ab326d98a5308d97';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('สวัสดี ยินดีต้อนรับท่านสู่ ระบบปรึกษาทางการแพทย์ โรงพยาบาลธัญญารักษ์ ขอนแก่น');
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('สวัสดี ยินดีต้อนรับท่านสู่ ระบบติดตามโภชนาการวัยเด็ก');
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
